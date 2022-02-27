@@ -1,0 +1,20 @@
+{
+  "name": "inotebook",
+  "version": "1.0.0",
+  "description": "your notes online",
+  "main": "index.js",
+  "scripts": {
+    "startServer": "nodemon index.js"
+  },
+  "author": "Sandip",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
