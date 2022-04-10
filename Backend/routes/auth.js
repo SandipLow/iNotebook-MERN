@@ -56,7 +56,7 @@ async (req, res) => {
 
     const authtoken = jwt.sign(data, JWT_DATA);
 
-    res.send(authtoken);
+    res.json({ authtoken: authtoken });
     // res.json(user);
     // res.send("Succsessful request...👍");
 
@@ -108,7 +108,7 @@ async (req, res) => {
 
     const authtoken = jwt.sign(data, JWT_DATA);
 
-    res.send(authtoken);
+    res.json({ authtoken: authtoken });
     // res.json(user);
     // res.send("Succsessful request...👍");
 })

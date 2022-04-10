@@ -1,0 +1,66 @@
+.parallax {
+    background-image: url(../../Assets/Banner.png);
+    height: 100vh;
+    background-size: cover;
+    background-color: rgb(212 227 242);
+    text-align: center;
+}
+
+.el {
+    min-height: 20vh;
+}
+
+.il {
+    color: #ff7bb6;
+    width: 48vw;
+}
+
+.il span {
+    font-size: 6vh;
+    padding: 4px;
+    border: 5px solid;
+    text-align: center;
+    width: fit-content;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 1px 1px 3px black;
+}
+
+.il img {
+    height: 40vh;
+    margin-top: 4vh;
+}
+
+.bl {
+    position: absolute;
+    bottom: 25vh;
+    right: 20vw;
+}
+
+.bl button {
+    margin: 7px;
+    height: 30px;
+    width: 200px;
+}
+
+.bl .p {
+    background-color: aqua;
+    color: blueviolet;
+}
+
+.bl .s {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid aqua;
+}
+
+@media screen and (max-width: 680px)  {
+    .il {
+        width: 100vw;
+    }
+
+    .bl {
+        position: unset;
+        right: unset;
+        text-align: center;
+    }
+}

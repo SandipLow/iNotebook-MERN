@@ -1,0 +1,15 @@
+.games{
+    width: 75%;
+    height: fit-content;
+    align-items: flex-start;
+}
+
+.game{
+    background-color: #8f8f8f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    width: 240px;
+    height: fit-content;
+    margin: 20px;
+    padding: 10px;
+}
